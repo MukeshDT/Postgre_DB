@@ -1,0 +1,5 @@
+CREATE DATABASE common_db;
+
+CREATE USER muki WITH ENCRYPTED PASSWORD 'muki';
+
+GRANT ALL ON DATABASE common_db to muki;
